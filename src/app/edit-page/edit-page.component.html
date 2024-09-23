@@ -1,0 +1,45 @@
+<form [formGroup]="form">
+  <div class="controls-display">
+    <mat-form-field>
+      <mat-label>Position</mat-label>
+      <input
+        matInput
+        placeholder="Enter position"
+        formControlName="position"
+        required
+      />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input
+        matInput
+        placeholder="Enter name"
+        formControlName="name"
+        required
+      />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Weight</mat-label>
+      <input
+        matInput
+        placeholder="Enter weight"
+        formControlName="weight"
+        required
+      />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Symbol</mat-label>
+      <input
+        matInput
+        placeholder="Enter symbol"
+        formControlName="symbol"
+        required
+      />
+    </mat-form-field>
+
+    <button mat-flat-button (click)="update()">Update</button>
+  </div>
+</form>

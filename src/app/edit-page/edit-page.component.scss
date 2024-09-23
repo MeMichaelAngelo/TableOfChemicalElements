@@ -1,0 +1,10 @@
+.controls-display {
+  text-align: center;
+  display: grid;
+  margin: 20px;
+}
+
+.mat-mdc-unelevated-button,
+.mat-mdc-unelevated-button .mdc-button__ripple {
+  border-radius: 0;
+}
